@@ -1,0 +1,234 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap'); */
+
+.more{
+width: 20px;
+height: 20px;
+background-color: #fff;
+background-image: url('pics/more.png');
+background-size: cover;
+}
+body{
+    font-family: 'Ubuntu';
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+ul{
+    visibility: hidden;
+}
+
+.h1{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.moreimg{
+    margin-left: 60px;
+    margin-top: 10px;
+    border: none;
+    background-color: #00000000;
+}
+p{
+    color: #222733;
+    font-size: 12px;
+}
+
+.pPovar{
+    font-size: 20px;
+
+    color: black;
+}
+
+.up{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 65px;
+    margin-bottom: 100px;
+}
+
+/* 360 was */
+
+header{
+    width: 360px;
+    height: 550px;
+    background-color: #fff;
+    background-image: url("pics/head.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+main{
+    width: 360px;
+}
+
+footer{
+    width: 360px;
+}
+
+.pheader{
+    color: lightgray;
+    font-size: 12px;
+}
+
+.submit{
+    background-color: #fff;
+    height: 50px;
+    width: 300px;
+    border: none;
+    margin-top: 10px;
+}
+
+.pokazateli{
+    display: flex;
+}
+
+.pokaztext{
+    height: 150px;
+    width: 220px;
+    margin: 15px;
+}
+
+.textonas{
+    padding: 15px;
+}
+
+/*.videoimg{
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    background-image: url("pics/videoimg.png");
+    background-size: cover;
+}
+*/
+
+
+
+.kavichki2{
+    width: 50px;
+    height: 50px;
+    background-image: url("pics/kavichki2.png");
+    background-size: cover;
+    
+}
+
+.cheif{
+    color: grey;
+}
+
+.playimg{
+    width: 70px;
+    height: 50px;
+    background-color: #fff;
+    background-image: url("pics/play.png");
+    background-size: cover;
+    
+}
+
+.whywe{
+    display: flex;
+    padding: 15px;
+}
+
+
+.whyweimg{
+    margin-right: 10px;
+}
+
+.newsaboutus{
+    width: 300px;
+    height: 450px;
+    background-image: url("pics/grayfoto.png");
+    background-image: url("pics/americantraditions.png");
+    background-size: cover;
+    background-color: #222733;
+    
+
+}
+
+.forbes{
+    display: flex;
+    
+}
+
+.forbesimg{
+   margin-right: 50px;
+}
+
+.btnleft{
+    width: 50px;
+    height: 50px;
+    background-image: url("pics/left.png");
+    background-size: cover;
+    margin-right: 10px;
+    border: none;
+    background-color: #00000000;
+}
+
+.btnright{
+    width: 50px;
+    height: 50px;
+    background-image: url("pics/right.png");
+    background-size: cover;
+    margin-left: 10px;
+    border: none;
+    background-color: #00000000;
+}
+
+.icones{
+    display: flex;
+}
+
+.iconfoot{
+    margin: 10px;
+}
+
+.pabout1{
+    color: #fff;
+    font-size: 10px;
+
+}
+
+.pabout2{
+    color: #fff;
+    font-size: 25px;
+}
+
+.newsaboutus{
+    padding: 25px;
+}
+
+.povar{
+    margin-top: 20px;
+    padding: 15px;
+
+}
+
+.pFoot{
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.plus{
+    padding-left: 10px;
+
+}
+
+.flexing{
+    display: flex;
+}
