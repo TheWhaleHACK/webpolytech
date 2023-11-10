@@ -1,9 +1,9 @@
  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap'); */
 
-/*:root{
-    font-size: 62.5px;
-}*/
+:root{
+    font-size: 62.5%;
+}
 
 
 body{
@@ -28,66 +28,68 @@ ul{
 }
 
 .h1{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 2rem;
     color: white;
     font-weight: 600;
 }
 
 .moreimg{
-    margin-left: 60px;
-    margin-top: 10px;
+    margin-left: 6rem;
+    margin-top: 1rem;
     border: none;
     background-color: #00000000;
 }
 
 p{
     color: #222733;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 .pPovar{
-    font-size: 20px;
-
+    /* font-size: 20px; */
+    font-size: 2rem;
     color: black;
 }
 
 .up{
     display: flex;
-    padding-top: 10px;
-    padding-left: 65px;
-    margin-bottom: 100px;
+    padding-top: 1rem;
+    padding-left: 6.5rem;
+    margin-bottom: 10rem;
 }
 
 /* 360 was */
 
 header{
-    width: 360px;
-    height: 550px;
+    width: 36rem;
+    height: 55rem;
     background-color: #fff;
     background-image: url("pics/head.png");
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 1.5rem;
 }
 
 main{
-    width: 360px;
+    width: 36rem;
 }
 
 footer{
-    width: 360px;
+    width: 36rem;
 }
 
 .pheader{
     color: lightgray;
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: 1.2rem;
 }
 
 .submit{
     background-color: #fff;
-    height: 50px;
-    width: 300px;
+    height: 5rem;
+    width: 30rem;
     border: none;
     margin-top: 10px;
 }
@@ -97,13 +99,13 @@ footer{
 }
 
 .pokaztext{
-    height: 150px;
-    width: 220px;
-    margin: 15px;
+    height: 15rem;
+    width: 22rem;
+    margin: 1.5rem;
 }
 
 .textonas{
-    padding: 15px;
+    padding: 1.5rem;
 }
 
 /*.videoimg{
@@ -118,8 +120,8 @@ footer{
 
 
 .kavichki2{
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     background-image: url("pics/kavichki2.png");
     background-size: cover;
     
@@ -130,8 +132,8 @@ footer{
 }
 
 .playimg{
-    width: 70px;
-    height: 50px;
+    width: 7rem;
+    height: 5rem;
     background-color: #fff;
     background-image: url("pics/play.png");
     background-size: cover;
@@ -140,17 +142,17 @@ footer{
 
 .whywe{
     display: flex;
-    padding: 15px;
+    padding: 1.5rem;
 }
 
 
 .whyweimg{
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .newsaboutus{
-    width: 300px;
-    height: 450px;
+    width: 30rem;
+    height: 45rem;
     background-image: url("pics/grayfoto.png");
     background-image: url("pics/americantraditions.png");
     background-size: cover;
@@ -165,25 +167,25 @@ footer{
 }
 
 .forbesimg{
-   margin-right: 50px;
+   margin-right: 5rem;
 }
 
 .btnleft{
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     background-image: url("pics/left.png");
     background-size: cover;
-    margin-right: 10px;
+    margin-right: 1rem;
     border: none;
     background-color: #00000000;
 }
 
 .btnright{
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     background-image: url("pics/right.png");
     background-size: cover;
-    margin-left: 10px;
+    margin-left: 1rem;
     border: none;
     background-color: #00000000;
 }
@@ -193,38 +195,40 @@ footer{
 }
 
 .iconfoot{
-    margin: 10px;
+    margin: 1rem;
 }
 
 .pabout1{
     color: #fff;
-    font-size: 10px;
+    /* font-size: 10px; */
+    font-size: 1rem;
 
 }
 
 .pabout2{
     color: #fff;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2.5rem;
 }
 
 .newsaboutus{
-    padding: 25px;
+    padding: 2.5rem;
 }
 
 .povar{
-    margin-top: 20px;
-    padding: 15px;
+    margin-top: 2rem;
+    padding: 1.5rem;
 
 }
 
 .pFoot{
-    padding-left: 15px;
-    padding-top: 20px;
-    padding-right: 40px;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
 }
 
 .plus{
-    padding-left: 10px;
+    padding-left: 1rem;
 
 }
 
