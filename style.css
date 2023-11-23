@@ -27,9 +27,15 @@ ul{
     visibility: hidden;
 }
 
+h1{
+    font-size: 2.4rem;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
 .h1{
     /* font-size: 20px; */
-    font-size: 2rem;
+    font-size: 3.3rem;
     color: white;
     font-weight: 600;
 }
@@ -37,60 +43,70 @@ ul{
 .moreimg{
     margin-left: 6rem;
     margin-top: 1rem;
-    border: none;
+    
     background-color: #00000000;
 }
 
 p{
     color: #222733;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .pPovar{
     /* font-size: 20px; */
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: black;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 2.2rem;
 }
 
 .up{
     display: flex;
     padding-top: 1rem;
-    padding-left: 6.5rem;
-    margin-bottom: 10rem;
+    padding-left: 16rem;
+    margin-bottom: 4rem;
 }
 
 /* 360 was */
 
 header{
-    width: 36rem;
-    height: 55rem;
+    /* width: 36rem; */
+    height: 58rem;
     background-color: #fff;
     background-image: url("pics/head.png");
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 1.5rem;
+    /* padding: 1rem; */
 }
 
 main{
-    width: 36rem;
+    /* width: 36rem; */
 }
 
 footer{
-    width: 36rem;
+    /* width: 36rem; */
 }
 
 .pheader{
     color: lightgray;
     /* font-size: 12px; */
-    font-size: 1.2rem;
+}
+
+.pheader2{
+    color: lightgray;
+    /* font-size: 12px; */
+    font-size: 1.6rem;
 }
 
 .submit{
     background-color: #fff;
     height: 5rem;
     width: 30rem;
-    border: none;
+    
     margin-top: 10px;
 }
 
@@ -173,25 +189,23 @@ footer{
 .btnleft{
     width: 5rem;
     height: 5rem;
-    background-image: url("pics/left.png");
-    background-size: cover;
     margin-right: 1rem;
-    border: none;
     background-color: #00000000;
 }
 
 .btnright{
     width: 5rem;
     height: 5rem;
-    background-image: url("pics/right.png");
-    background-size: cover;
-    margin-left: 1rem;
-    border: none;
-    background-color: #00000000;
+     /* background-image: url("pics/right.png");  */
+    /* background-size: cover;*/
+    margin-left: 1rem; 
+    /* border: none; */
+     background-color: #00000000; 
 }
 
 .icones{
     display: flex;
+    padding-left: 1rem;
 }
 
 .iconfoot{
@@ -205,10 +219,15 @@ footer{
 
 }
 
+.pokaz{
+    font-weight: 600;
+    font-size: 4rem;
+}
+
 .pabout2{
     color: #fff;
     /* font-size: 25px; */
-    font-size: 2.5rem;
+    font-size: 2.6rem;
 }
 
 .newsaboutus{
@@ -218,13 +237,11 @@ footer{
 .povar{
     margin-top: 2rem;
     padding: 1.5rem;
-
+    /* display: none; */
 }
 
 .pFoot{
-    padding-left: 1.5rem;
-    padding-top: 2rem;
-    padding-right: 4rem;
+padding-left: 2rem;
 }
 
 .plus{
