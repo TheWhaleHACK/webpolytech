@@ -43,8 +43,12 @@ h1{
 .moreimg{
     margin-left: 6rem;
     margin-top: 1rem;
-    
+    border: none;
     background-color: #00000000;
+}
+
+.moreimg:hover {
+    margin-top: 2rem;
 }
 
 p{
@@ -65,8 +69,7 @@ h3{
 
 .up{
     display: flex;
-    padding-top: 1rem;
-    padding-left: 16rem;
+    justify-content: center;
     margin-bottom: 4rem;
 }
 
@@ -80,11 +83,14 @@ header{
     background-size: cover;
     color: white;
     text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
     /* padding: 1rem; */
 }
 
 main{
     /* width: 36rem; */
+    margin: 0 auto;
 }
 
 footer{
@@ -167,14 +173,14 @@ footer{
 }
 
 .newsaboutus{
-    width: 30rem;
+    /* width: 30rem; */
     height: 45rem;
     background-image: url("pics/grayfoto.png");
     background-image: url("pics/americantraditions.png");
     background-size: cover;
     background-color: #222733;
-    
-
+    padding: 2.5rem;
+    object-fit: fill;
 }
 
 .forbes{
@@ -191,6 +197,7 @@ footer{
     height: 5rem;
     margin-right: 1rem;
     background-color: #00000000;
+    border: none; 
 }
 
 .btnright{
@@ -199,8 +206,17 @@ footer{
      /* background-image: url("pics/right.png");  */
     /* background-size: cover;*/
     margin-left: 1rem; 
-    /* border: none; */
-     background-color: #00000000; 
+    border: none; 
+    background-color: #00000000; 
+}
+
+.btnright:hover{
+    height: 6rem;
+}
+
+.btnleft:hover{
+    height: 6rem;
+    
 }
 
 .icones{
@@ -230,9 +246,6 @@ footer{
     font-size: 2.6rem;
 }
 
-.newsaboutus{
-    padding: 2.5rem;
-}
 
 .povar{
     margin-top: 2rem;
