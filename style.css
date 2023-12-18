@@ -265,3 +265,44 @@ padding-left: 2rem;
 .flexing{
     display: flex;
 }
+.gridbox{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 1rem;
+}
+
+.griditem{
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.biggrid{
+    display: grid;
+    grid-template-columns:20% 80%;
+}
+
+.slidergrid {
+ 
+    display: grid;
+    background-color: gray;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+.slidergriditem1{
+    width: 100px;
+    height: 100px;
+    background-image: url("pics/stargrid.png");
+    background-size: cover;
+}
+
+.slidergriditem2{
+    width: 100px;
+    height: 100px;
+    background-image: url("pics/poolgrid.png");
+    background-size: cover;
+}
