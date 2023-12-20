@@ -218,7 +218,49 @@ footer{
     height: 6rem;
     
 }
-
+.btn {
+    width:50%;
+    display: inline-block;
+    background: #8C959D;
+    color: #fff;
+    padding: 5%;
+    margin: 15%;
+    border-radius: 3px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.child {
+    min-height: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    overflow: hidden;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.child img {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+}
+.buon{
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 45%;
+}
+.but {
+    background: #3d81bd;
+    color: #fff;
+    padding: 5%;
+    border-radius: 5px;
+}
 .icones{
     display: flex;
     padding-left: 1rem;
@@ -267,8 +309,8 @@ padding-left: 2rem;
 }
 .gridbox{
     display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
     grid-gap: 1rem;
 }
 
@@ -305,4 +347,57 @@ padding-left: 2rem;
     height: 100px;
     background-image: url("pics/poolgrid.png");
     background-size: cover;
+}
+@media screen  and (min-width:1024px){
+    .textonas{
+        display: flex;
+    }
+    .usus{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .heads{
+        display: flex;
+
+    }
+    .hades{
+        text-align: left;
+    }
+    .hdeas{
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+    .podr{
+        background-color:#222733;
+        padding: 10px;
+        margin-top: 5%;
+    }
+    .pokazz{
+        display: flex;
+    }
+    .povar{
+        display: flex;
+    }
+    .vopar{
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 5%;
+    }
+    .newsaboutus{
+        display: flex;
+    }
+    .kavichki2{
+        margin-left: 10%;
+    }
+    .whywhy{
+        display: flex;
+    }
+    .whywe{
+        display: block;
+    }
+}
+@media screen  and (min-width:1600px){
+    .hdeas{
+        margin-left: 20%;
+    }
 }
