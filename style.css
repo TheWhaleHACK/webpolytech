@@ -19,12 +19,16 @@ a{
     color: white;
 }
 
-.logo{
-    margin-left: 50px;
-}
+
 
 ul{
     visibility: hidden;
+    display: flex;
+}
+
+li{
+    margin: 1rem;
+    font-size: 1.8rem;
 }
 
 h1{
@@ -33,6 +37,11 @@ h1{
     padding-bottom:20px;
 }
 
+
+.options{
+    display:flex;
+    padding-bottom: 10rem;
+}
 .h1{
     /* font-size: 20px; */
     font-size: 3.3rem;
@@ -77,15 +86,18 @@ h3{
 
 header{
     /* width: 36rem; */
-    height: 58rem;
+    /* height: 58rem; */
     background-color: #fff;
     background-image: url("pics/head.png");
     background-size: cover;
     color: white;
     text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    /* padding-left: 8.5rem;
+    padding-right: 2rem; */
     /* padding: 1rem; */
+
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 main{
@@ -100,6 +112,25 @@ footer{
 .pheader{
     color: lightgray;
     /* font-size: 12px; */
+}
+
+.upper{
+    display: flex;
+
+}
+
+.pupper1{
+    color: lightgray;
+    margin-right: 25%;
+}
+
+.pupper2{
+    color: lightgray;
+    margin-right: 3%;
+}
+
+.pupper3{
+    color: lightgray;
 }
 
 .pheader2{
@@ -130,24 +161,17 @@ footer{
     padding: 1.5rem;
 }
 
-/*.videoimg{
-    width: 200px;
-    height: 300px;
-    background-color: #fff;
-    background-image: url("pics/videoimg.png");
-    background-size: cover;
-}
-*/
 
 
 
-.kavichki2{
+
+/* .kavichki2{
     width: 5rem;
     height: 5rem;
     background-image: url("pics/kavichki2.png");
     background-size: cover;
     
-}
+} */
 
 .cheif{
     color: grey;
@@ -274,7 +298,7 @@ footer{
     color: #fff;
     /* font-size: 10px; */
     font-size: 1rem;
-
+    margin-right: 30%;
 }
 
 .pokaz{
@@ -286,6 +310,7 @@ footer{
     color: #fff;
     /* font-size: 25px; */
     font-size: 2.6rem;
+    font-weight: 600;
 }
 
 
@@ -293,6 +318,10 @@ footer{
     margin-top: 2rem;
     padding: 1.5rem;
     /* display: none; */
+}
+
+.nordic{
+    margin-right: 20%
 }
 
 .pFoot{
@@ -348,18 +377,62 @@ padding-left: 2rem;
     background-image: url("pics/poolgrid.png");
     background-size: cover;
 }
+
+.heads{
+    padding-bottom: 5rem;
+}
+
+.videomobileimg{
+    visibility: visible;
+    display: block;
+}
+
+.videocompimg{
+    visibility: hidden;
+    display: none;
+}
+
+.povarcomputer{
+    display: none;
+}
+
+.povarmobile{
+    display: block;
+}
+
+.kavichki1{
+    display: none;
+}
+
 @media screen  and (min-width:1024px){
+    .kavichki1{
+        display: block;
+    }
+    .povarcomputer{
+        display: block;
+    }
+    
+    .povarmobile{
+        display: none;
+    }
     .textonas{
         display: flex;
     }
     .usus{
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
     }
     .heads{
-        display: flex;
+        display: flex;        
 
     }
+
+    .povardonthnowhy{
+        display: flex;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
     .hades{
         text-align: left;
     }
@@ -374,9 +447,13 @@ padding-left: 2rem;
     }
     .pokazz{
         display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .povar{
         display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .vopar{
         margin-left: 5%;
@@ -384,17 +461,59 @@ padding-left: 2rem;
         margin-top: 5%;
     }
     .newsaboutus{
+        background-image: url("pics/americancomputer2.jpg");
         display: flex;
+        padding-left: 8%;
+        padding-right: 8%;
+        background-color: #222733;
     }
-    .kavichki2{
+
+    .videomobileimg{
+        visibility: hidden;
+        display: none;
+    }
+
+    .videocompimg{
+        visibility: visible;
+        display: block;
+    }
+
+    /* .kavichki2{
         margin-left: 10%;
+    } */
+
+    .pwhy{
+        margin-right: 10%;
     }
+
     .whywhy{
         display: flex;
     }
     .whywe{
         display: block;
     }
+
+    ul{
+        visibility: visible;
+    }
+
+    .moreimg{
+        visibility: hidden;
+    }
+
+    footer{
+        display: flex;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .icones{
+        margin-left: 40%;
+    }
+
+    .forbesimg{
+        margin-right: 33rem;
+     }
 }
 @media screen  and (min-width:1600px){
     .hdeas{
