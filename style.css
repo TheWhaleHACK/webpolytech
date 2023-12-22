@@ -39,7 +39,7 @@ a{
 
 ul{
     visibility: hidden;
-    display: flex;
+    display: none;
 }
 
 li{
@@ -57,7 +57,11 @@ h1{
 .options{
     display:flex;
     padding-bottom: 10rem;
+    justify-content: center; 
+    align-items: center;
 }
+
+
 .h1{
     /* font-size: 20px; */
     font-size: 3.3rem;
@@ -66,10 +70,15 @@ h1{
 }
 
 .moreimg{
-    margin-left: 6rem;
+    margin-left: 50%;
     margin-top: 1rem;
     border: none;
     background-color: #00000000;
+    position: absolute;
+}
+
+.img_toeat{
+    
 }
 
 .moreimgop {
@@ -94,7 +103,7 @@ h3{
 
 .up{
     display: flex;
-    justify-content: center;
+
     margin-bottom: 4rem;
 }
 
@@ -158,7 +167,7 @@ footer{
 .submit{
     background-color: #fff;
     height: 5rem;
-    width: 30rem;
+    width: 60%;
     
     margin-top: 10px;
 }
@@ -483,6 +492,10 @@ padding-left: 2rem;
     .kavichki1{
         display: block;
     }
+
+    header{
+        background-image: url("pics/head_computer.png");
+    }
     .povarcomputer{
         display: block;
     }
@@ -501,6 +514,7 @@ padding-left: 2rem;
         display: flex;        
 
     }
+
 
     .povardonthnowhy{
         display: flex;
@@ -570,6 +584,7 @@ padding-left: 2rem;
 
     ul{
         visibility: visible;
+        display: flex;
     }
 
     .moreimg{
