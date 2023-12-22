@@ -19,7 +19,23 @@ a{
     color: white;
 }
 
+.li::before{
+    transition-duration: 1s;
+    opacity: 0;
+}
+/* 
+.liop{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+} */
+/* 
+.li:active{
+    color: lightblue;
+    border-top: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+}
 
+ */
 
 ul{
     visibility: hidden;
@@ -56,7 +72,7 @@ h1{
     background-color: #00000000;
 }
 
-.moreimg:hover {
+.moreimgop {
     margin-top: 2rem;
 }
 
@@ -115,7 +131,7 @@ footer{
 }
 
 .upper{
-    display: flex;
+    display: none;
 
 }
 
@@ -234,11 +250,11 @@ footer{
     background-color: #00000000; 
 }
 
-.btnright:hover{
+.btnrightop{
     height: 6rem;
 }
 
-.btnleft:hover{
+.btnleftop{
     height: 6rem;
     
 }
@@ -313,7 +329,18 @@ footer{
     font-weight: 600;
 }
 
+.sub1btn{
+    width: 10rem;
+    height: 4rem;
+    border-radius: 50px;
+    color: white;
+    background-color: darkcyan;
+}
 
+.sub1btnop{
+    color:black;
+    background-color: cyan;
+}
 .povar{
     margin-top: 2rem;
     padding: 1.5rem;
@@ -402,6 +429,45 @@ padding-left: 2rem;
 
 .kavichki1{
     display: none;
+}
+
+.animated-link {
+    position: relative;
+    display: block;
+}
+
+.animated-link::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: -4px;
+    opacity: 0;
+}
+
+.animated-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    opacity: 0;
+}
+
+.li .animated-link::before,
+.li .animated-link::after {
+    transition: opacity 0.3s;;
+}
+
+.li:hover .animated-link::before,
+.li:hover .animated-link::after {
+    opacity: 1;
 }
 
 @media screen  and (min-width:1024px){
@@ -514,6 +580,10 @@ padding-left: 2rem;
     .forbesimg{
         margin-right: 33rem;
      }
+
+    .upper{
+        display: flex;
+    }
 }
 @media screen  and (min-width:1600px){
     .hdeas{
