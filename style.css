@@ -335,9 +335,10 @@ footer{
     border-radius: 50px;
     color: white;
     background-color: darkcyan;
+    transition-duration: 0.3s;
 }
 
-.sub1btnop{
+.sub1btn:hover{
     color:black;
     background-color: cyan;
 }
@@ -468,6 +469,14 @@ padding-left: 2rem;
 .li:hover .animated-link::before,
 .li:hover .animated-link::after {
     opacity: 1;
+}
+
+.btnleft:hover{
+    margin-top:1rem;
+}
+
+.btnright:hover{
+    margin-top:1rem;
 }
 
 @media screen  and (min-width:1024px){
